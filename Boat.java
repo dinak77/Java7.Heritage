@@ -5,6 +5,6 @@ public class Boat extends Vehicle {
     }
 
     public String doStuff() {
-        return ("Titanic");
+        return ("Je suis " + this.getBrand()+" et je fais glou glou!");
     }
 }
